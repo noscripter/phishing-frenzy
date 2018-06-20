@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.7'
 
 gem 'mysql2'
-gem 'sass-rails'
+gem 'sass-rails', '>= 5.0.3'
 gem 'coffee-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -45,7 +45,7 @@ gem 'pry-nav'
 
 # To assist with pagination
 gem 'kaminari'
-gem 'bootstrap-kaminari-views'
+gem 'bootstrap-kaminari-views', '>= 0.0.5'
 
 # To determine binary files
 gem 'ptools'
@@ -64,7 +64,7 @@ gem 'carrierwave'
 gem 'nested_form'
 
 # datatables
-gem 'jquery-datatables-rails'
+gem 'jquery-datatables-rails', '>= 3.2.0'
 
 # d3 reports
 gem 'd3-rails'
