@@ -78,11 +78,11 @@ gem 'searchbing'
 gem 'open_uri_redirections'
 
 # site cloning
-gem 'mechanize'
+gem 'mechanize', '>= 2.7.3'
 
 # Gem for xlsx creation
-gem 'acts_as_xlsx'
-gem 'axlsx'
+gem 'acts_as_xlsx', '>= 1.0.6'
+gem 'axlsx', '>= 2.0.1'
 
 # code syntax highlighter
 gem 'codemirror-rails'
@@ -91,7 +91,7 @@ gem 'codemirror-rails'
 gem "rspec-rails", :group => [:test, :development]
 group :test do
   gem "factory_girl_rails"
-  gem "capybara"
+  gem "capybara", ">= 2.4.4"
   gem "guard-rspec"
   gem 'database_cleaner'
   gem 'faker'
