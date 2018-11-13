@@ -3,29 +3,29 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.7'
 
 gem 'mysql2'
-gem 'sass-rails'
-gem 'coffee-rails'
+gem 'sass-rails', '>= 5.0.3'
+gem 'coffee-rails', '>= 4.1.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', :platforms => :ruby
 
 # core rails helpers
 gem 'uglifier'
-gem 'jquery-rails'
-gem 'protected_attributes'
+gem 'jquery-rails', '>= 3.1.2'
+gem 'protected_attributes', '>= 1.0.9'
 
 # TO use devise for authentication
-gem 'devise'
+gem 'devise', '>= 3.4.1'
 
 # For login tracking
-gem 'paper_trail', '>= 3.0.0.rc2'
+gem 'paper_trail', '>= 4.0.0'
 
 # For background work (sending emails)
 gem 'sidekiq'
 gem 'sinatra', '>= 1.3.0', :require => nil
 
 # For email previewing
-gem 'letter_opener_web'
+gem 'letter_opener_web', '>= 1.3.0'
 
 # To use google charts
 gem 'googlecharts'
@@ -34,7 +34,7 @@ gem 'googlecharts'
 gem 'geokit'
 
 # To use jquery ui
-gem 'jquery-ui-rails'
+gem 'jquery-ui-rails', '>= 5.0.3'
 
 # To use rubyzip
 gem 'rubyzip', "~>1.0.0"
@@ -44,8 +44,8 @@ gem 'pry'
 gem 'pry-nav'
 
 # To assist with pagination
-gem 'kaminari'
-gem 'bootstrap-kaminari-views'
+gem 'kaminari', '>= 0.16.3'
+gem 'bootstrap-kaminari-views', '>= 0.0.5'
 
 # To determine binary files
 gem 'ptools'
@@ -54,20 +54,20 @@ gem 'ptools'
 gem 'execjs'
 
 # bootstrap
-gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "less-rails" , ">= 2.6.0" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'bootstrap3'
 
 # For uploading email attacments
-gem 'carrierwave'
+gem 'carrierwave', '>= 0.10.0'
 
 # For multiple attachments
 gem 'nested_form'
 
 # datatables
-gem 'jquery-datatables-rails'
+gem 'jquery-datatables-rails', '>= 3.2.0'
 
 # d3 reports
-gem 'd3-rails'
+gem 'd3-rails', '>= 3.5.5'
 
 # pdf creation
 gem 'prawn', '~> 1.2.1'
@@ -81,32 +81,32 @@ gem 'open_uri_redirections'
 gem 'mechanize'
 
 # Gem for xlsx creation
-gem 'acts_as_xlsx'
+gem 'acts_as_xlsx', '>= 1.0.6'
 gem 'axlsx'
 
 # code syntax highlighter
-gem 'codemirror-rails'
+gem 'codemirror-rails', '>= 5.0'
 
 # our test suite
-gem "rspec-rails", :group => [:test, :development]
+gem "rspec-rails", ">= 3.2.1", :group => [:test, :development]
 group :test do
-  gem "factory_girl_rails"
+  gem "factory_girl_rails", ">= 4.5.0"
   gem "capybara"
   gem "guard-rspec"
   gem 'database_cleaner'
-  gem 'faker'
+  gem 'faker', '>= 1.4.3'
 end
 
 # ruby code style checker
 gem 'rubocop'
 
 # optimize queries
-gem "bullet", :group => "development"
+gem "bullet", ">= 4.14.4"
 
-gem 'public_activity'
+gem 'public_activity', '>= 1.4.2'
 
 # decorators
-gem 'draper', '~> 1.3'
+gem 'draper', '~> 1.3', '>= 1.3.0'
 
 # foreman helper
 gem 'foreman'
