@@ -15,7 +15,7 @@ gem 'jquery-rails'
 gem 'protected_attributes'
 
 # TO use devise for authentication
-gem 'devise'
+gem 'devise', '>= 4.6.0'
 
 # For login tracking
 gem 'paper_trail', '>= 3.0.0.rc2'
