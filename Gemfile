@@ -34,7 +34,7 @@ gem 'googlecharts'
 gem 'geokit'
 
 # To use jquery ui
-gem 'jquery-ui-rails'
+gem 'jquery-ui-rails', '>= 6.0.0'
 
 # To use rubyzip
 gem 'rubyzip', "~>1.0.0"
